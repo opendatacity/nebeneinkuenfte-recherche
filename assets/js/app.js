@@ -1,7 +1,7 @@
 'use strict';
 
 
-var app = angular.module('ParteienApp', [
+var app = angular.module('NebeneinkunftApp', [
 	'ngResource',
 	'ngCsv'
 ]);
