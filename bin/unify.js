@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var data2013 = JSON.parse(fs.readFileSync('./data/nebeneinkuenfte-2013-03-25.json', 'utf8'));
+var data2013 = JSON.parse(fs.readFileSync('./data/nebeneinkuenfte-2014-03-25.json', 'utf8'));
 var destfile1 = '../assets/data/nebeneinkuenfte.min.json';
 var destfile2 = '../assets/data/nebeneinkuenfte.json';
 
