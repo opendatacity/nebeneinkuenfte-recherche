@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-md-4 form-group-choose">
                     <div class="form-group-nomargin">
-                        <label for="form-typ">Level</label>
+                        <label for="form-typ">Stufe</label>
                         <select id="form-typ" ng-model="search.level" ng-options="t.name for t in data.bounds.levels">
                             <option value="">Alle</option>
                         </select>
@@ -69,7 +69,7 @@
                                 title="Suchergebnis als CSV-Datei herunterladen"
                                 ng-csv="cvs"
                                 field-separator=";"
-                                csv-header="['Level','Art', 'Name', 'Fraktion', 'Wahlkreis', 'Beschreibung', 'Profil-URL']"
+                                csv-header="['Stufe','Art', 'Name', 'Fraktion', 'Wahlkreis', 'Beschreibung', 'Profil-URL']"
                                 filename="nebeneinkuenfte.csv">
                             <i class="glyphicon glyphicon-download"></i> Download
                         </button>

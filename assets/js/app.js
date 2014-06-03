@@ -12,7 +12,7 @@ app.controller('ResultCtrl', function ($scope) {
 		descending: false
 	};
 	$scope.columns = [
-		{key: 'level', name: 'Level', hint: 'levelname'},
+		{key: 'level', name: 'Stufe', hint: 'levelname'},
 		{key: 'periodical', name: 'Art'},
 		{key: 'name', keyhtml: 'urlhtml', name: 'Abgeordnete', class: 'col-sm-2'},
 		{key: 'party', name: 'Fraktion', class: 'col-sm-1'},
@@ -194,7 +194,7 @@ app.controller('SearchCtrl', function ($scope, Values) {
 			s += ' nur ' + q.periodical.name;
 		}
 		if (q.level) {
-			s += ' in Level ' + q.level.name;
+			s += ' in Stufe ' + q.level.name;
 		}
 		if (q.text) {
 			s += ' mit Suchbegriffen: "' + q.text.join(',') + '"';
